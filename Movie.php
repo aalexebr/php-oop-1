@@ -26,7 +26,7 @@ class Movie {
     }
     public function setGenre($var){
         if(is_array($var)){
-            $this->year_release = $var;
+            $this->genre = $var;
             return $var;
         }
     }
