@@ -1,0 +1,14 @@
+[
+    {
+        "title" : "Drive",
+        "director" : "R",
+        "year" : "00001",
+        "genre" : ["action","drama"]
+    },
+    {
+        "title" : "second",
+        "director" : "A",
+        "year" : "00002",
+        "genre" : ["fesdgsa","dsgsfd"]
+    }
+]
