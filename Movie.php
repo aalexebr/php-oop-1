@@ -2,8 +2,10 @@
 class Movie {
     public $original_title;
     public $director;
-    private $year_release;
-    private $genre;
+    // private $year_release;
+    // private $genre;
+    public $year_release;
+    public $genre;
 
     public function __construct(
         $title,
@@ -14,8 +16,10 @@ class Movie {
         {
         $this->original_title = $title;
         $this->director = $director;
-        $this->setYear($year_released);
-        $this->setGenre($genre);
+        // $this->setYear($year_released);
+        // $this->setGenre($genre);
+        $this->year_release = $year_released;
+        $this->genre = $genre;
     }
     
     public function setYear($num){

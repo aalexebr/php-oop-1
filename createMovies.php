@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . './Movie.php';
 require_once __DIR__ . './db.php';
-$newMovie = new Movie("Drive","Refn",2007, ['action']);
+// $newMovie = new Movie("Drive","Refn",2007, ['action']);
 // var_dump($newMovie);
 $newMovies =[];
 foreach ($movies as $index => $movie){
@@ -10,3 +10,4 @@ foreach ($movies as $index => $movie){
     $newMovies[] = $createMovie;
 }
 var_dump($newMovies);
+// echo $newMovies[0]->year_release;

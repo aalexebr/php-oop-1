@@ -1,14 +1,20 @@
 [
     {
         "title" : "Drive",
-        "director" : "R",
-        "year" : "00001",
+        "director" : "Nicolas Winding Refn",
+        "year" : "2011",
         "genre" : ["action","drama"]
     },
     {
-        "title" : "second",
-        "director" : "A",
-        "year" : "00002",
-        "genre" : ["fesdgsa","dsgsfd"]
+        "title" : "The Goonies",
+        "director" : "Richard Donner",
+        "year" : "1985",
+        "genre" : ["adventure"]
+    },
+    {
+        "title" : "Mission Impossible",
+        "director" : "Brian De Palma",
+        "year" : "1996",
+        "genre" : ["action","thriller","spy"]
     }
 ]
